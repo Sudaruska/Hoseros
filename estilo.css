@@ -1,0 +1,82 @@
+html {
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-fondo-tecnologico_23-2148503801.jpg);
+    background-size: cover;
+}
+ul li {
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+    list-style: none;
+}
+h1 {
+    font: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 16%;
+    margin-top: 30px;
+}
+h2 {
+    font: 1em sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+h3 {
+    font-style: italic;
+    color: aliceblue;
+    background-color: black;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.robottitulo {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    clear: both;
+}
+.robotdesc {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.wifititulo {
+    text-align: center;
+    margin-right: 45%;
+}
+.wifidesc {
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.impresiontitulo {
+    text-align: center;
+    margin-left: 45%;
+}
+.impresiondesc {
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 50%;
+    margin-bottom: 50px;
+}
+
+.robocitytitulo {
+    text-align: center;
+    margin-right: 45%;
+}
+.robocitydesc {
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}

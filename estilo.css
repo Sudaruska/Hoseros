@@ -1,7 +1,7 @@
 html {
-    background-image: url(https://besthqwallpapers.com/Uploads/21-12-2019/116886/thumb-technology-texture-blue-technology-background-creative-blue-background-technology-background-blue-neon-background.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/53/78/bQLFTZ.jpg);
     background-color: black;
-    background-size: 100% 83.5%;
+    background-size: 100% 81.5%;
     background-repeat: no-repeat;
 }
 
@@ -23,6 +23,7 @@ h2 {
     font: 1em sans-serif;
     font-size: 25px;
     color: aliceblue;
+    background-color: black;
 }
 
 h3 {
@@ -50,45 +51,74 @@ h4 {
     text-align: center;
     margin-bottom: 5px;
     margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 .robotdesc {
+    font-size: 18px;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 50px;
+    transition: 1s;
+}
+.robotdesc:hover {
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 .wifititulo {
     text-align: center;
-    margin-right: 45%;
+    margin-right: 55%;
+    margin-left: 10%;
 }
 .wifidesc {
+    font-size: 18px;
     text-align: center;
     margin-right: 50%;
     margin-left: 5%;
     margin-bottom: 50px;
+    transition: 1s;
+}
+.wifidesc:hover {
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 .impresiontitulo {
     text-align: center;
-    margin-left: 45%;
+    margin-left: 55%;
+    margin-right: 10%;
 }
 .impresiondesc {
+    font-size: 18px;
     text-align: center;
     margin-right: 5%;
     margin-left: 50%;
     margin-bottom: 50px;
+    transition: 1s;
+}
+.impresiondesc:hover {
+    font-size: 20px;
+    border-radius: 1s;
 }
 
 .robocitytitulo {
     text-align: center;
-    margin-right: 45%;
+    margin-right: 55%;
+    margin-left: 10%;
 }
 .robocitydesc {
+    font-size: 18px;
     text-align: center;
     margin-right: 50%;
     margin-left: 5%;
     margin-bottom: 50px;
+    transition: 1s;
+}
+.robocitydesc:hover {
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 .idiomas {
@@ -126,16 +156,16 @@ h4 {
     transition: 1s;
 }
 .espanol:hover {
-    background-color: rgb(139, 6, 6);
-    color: aliceblue;
+    height: 30px;
+    width: 70px;
 }
 .ingles:hover {
-    background-color: blue;
-    color: aliceblue;
+    height: 30px;
+    width: 70px;
 }
 .euskara:hover {
-    background-color: green;
-    color: aliceblue;
+    height: 30px;
+    width: 70px;
 }
 
 .redessoci {

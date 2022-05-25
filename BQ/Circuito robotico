@@ -1,0 +1,75 @@
+ #include <Servo.h> 
+
+Servo servoizq ;
+Servo  servoder ;
+
+
+void setup() {
+  
+ 
+  servoizq.attach(8);
+  servoder.attach(9);
+  Serial.begin(9600);
+  
+  
+}
+  
+  
+  void loop() { 
+   
+
+  // hacia adelante
+  servoder.write(180); 
+    servoizq.write(0); 
+    Serial.println("sigue de frente");
+     delay(2700);
+  
+    // girar derecha
+    
+      servoder.write(90);
+    servoizq.write(0);
+    Serial.println("Gira a la derecha");
+    delay(1000);
+    
+     // hacia adelante
+  servoder.write(160); 
+    servoizq.write(0); 
+    Serial.println("sigue de frente");
+     delay(4300);
+       
+       // girar derecha
+    
+      servoder.write(90);
+    servoizq.write(0);
+    Serial.println("Gira a la derecha");
+    delay(500);
+    
+      // hacia adelante
+  servoder.write(160); 
+    servoizq.write(0); 
+    Serial.println("sigue de frente");
+     delay(3000);
+  
+     
+     //girar izquierda
+     
+     servoder.write(180);
+    servoizq.write(90);
+    Serial.println("Gira a la derecha");
+    delay(300);
+    
+    // hacia adelante
+  servoder.write(160); 
+    servoizq.write(0); 
+    Serial.println("sigue de frente");
+     delay(3500);
+     
+          //girar izquierda
+     
+     servoder.write(180);
+    servoizq.write(90);
+    Serial.println("Gira a la derecha");
+    delay(300);
+  
+  
+  }
